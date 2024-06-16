@@ -19,5 +19,3 @@ pub mod pg_test {
     }
 }
 
-#[cfg(feature = "duckdb_fdw")]
-mod duckdb_fdw;
