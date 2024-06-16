@@ -128,6 +128,7 @@ notion_fdw = [
     "url",
     "thiserror",
 ]
+duckdb_fdw = [] # Added duckdb_fdw feature
 # Does not include helloworld_fdw because of its general uselessness
 all_fdws = [
     "airtable_fdw",
@@ -142,6 +143,7 @@ all_fdws = [
     "redis_fdw",
     "cognito_fdw",
     "notion_fdw",
+    "duckdb_fdw", # Included duckdb_fdw in all_fdws feature list
 ]
 
 [dependencies]
