@@ -1,6 +1,10 @@
 use supabase_wrappers::prelude::*;
 use std::collections::HashMap;
 
+use pgrx::pg_sys::panic::ErrorReport;
+use pgrx::prelude::PgSqlErrorCode;
+// use thiserror::Error;
+
 #[wrappers_fdw(
     version = "0.1.0",
     author = "Supabase",
