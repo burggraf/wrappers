@@ -36,3 +36,6 @@ mod cognito_fdw;
 
 #[cfg(feature = "notion_fdw")]
 mod notion_fdw;
+
+#[cfg(feature = "duckdb_fdw")]
+mod duckdb_fdw;

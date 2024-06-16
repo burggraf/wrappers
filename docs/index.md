@@ -52,6 +52,7 @@ Currently `supabase/wrappers` supports:
 | S3          |   ✅   |   ❌   |   ❌   |   ❌   |    ❌    |
 | Stripe      |   ✅   |   ✅   |   ✅   |   ✅   |    ❌    |
 | SQL Server  |   ✅   |   ❌   |   ❌   |   ❌   |    ❌    |
+| DuckDB      |   ✅   |   ❌   |   ❌   |   ❌   |    ❌    |
 
 !!! warning
 

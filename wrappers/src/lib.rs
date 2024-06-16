@@ -18,3 +18,6 @@ pub mod pg_test {
         vec![]
     }
 }
+
+#[cfg(feature = "duckdb_fdw")]
+mod duckdb_fdw;
