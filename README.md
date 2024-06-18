@@ -133,6 +133,19 @@ wrappers=# select * from hello;
 (1 row)
 ```
 
+## Testing Setup
+
+To set up a testing environment for the wrappers, you can use the `setup_test_env.sh` script located in the root directory of the project. This script installs all the prerequisites for testing the wrappers, including the Rust toolchain, pgrx dependencies, and runs the helloworld wrapper as a test.
+
+To use the script, simply run:
+(MacOS only)
+
+```bash
+./setup_test_env.sh
+```
+
+This will ensure that all necessary components are installed and configured correctly for testing.
+
 ## Running tests
 
 In order to run tests in `wrappers`:

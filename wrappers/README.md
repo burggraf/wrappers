@@ -15,3 +15,5 @@ This is a collection of FDWs built by [Supabase](https://www.supabase.com). We c
 - [SQL Server](./src/fdw/mssql_fdw): A FDW for [Microsoft SQL Server](https://www.microsoft.com/en-au/sql-server/) which supports data read only.
 - [Redis](./src/fdw/redis_fdw): A FDW for [Redis](https://redis.io/) which supports data read only.
 - [Notion](./src/fdw/notion_fdw): A FDW for [Notion](https://notion.so/) which supports users read only.
+
+To set up a testing environment for the wrappers, you can use the `setup_test_env.sh` script (on MacOS) located in the root directory of the project. This script installs all the prerequisites for testing the wrappers, including the Rust toolchain, pgrx dependencies, and runs the helloworld wrapper as a test.
