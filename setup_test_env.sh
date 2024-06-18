@@ -11,8 +11,10 @@ sudo apt-get install git icu4c pkg-config
 
 # Install pgrx
 cargo install cargo-pgrx --version 0.11.3 --locked
+# cargo pgrx init --pg15 download
+# cargo pgrx init --pg15 /home/codespace/.pgrx/15.7
 cargo pgrx init
 
 # Run the helloworld wrapper as a test
-cd wrappers/wrappers
+cd wrappers
 cargo pgrx run pg15 --features helloworld_fdw
