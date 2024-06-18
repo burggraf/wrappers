@@ -8,6 +8,8 @@ source "$HOME/.cargo/env"
 brew install git icu4c pkg-config
 
 # Install pgrx
+# cargo install cargo-quickinstall
+# cargo quickinstall cargo-pgrx --version 0.11.3
 cargo install cargo-pgrx --version 0.11.3 --locked
 # cargo pgrx init
 cargo pgrx init --pg15.7 download
